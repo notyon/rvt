@@ -22,8 +22,7 @@ async def tambah_admin_handler(client: Client, msg: types.Message):
             )
         if await db.cek_user_didatabase():
             status = [
-                'admin', 'owner', 'talent', 'daddy sugar', 'moans girl',
-                'moans boy', 'girlfriend rent', 'boyfriend rent'
+                'admin', 'owner'
             ]
             member = db.get_data_pelanggan()
             if member.status in status:
@@ -71,8 +70,7 @@ async def hapus_admin_handler(client: Client, msg: types.Message):
         db = Database(int(target))
         if await db.cek_user_didatabase():
             status = [
-                'owner', 'talent', 'daddy sugar', 'moans girl',
-                'moans boy', 'girlfriend rent', 'boyfriend rent'
+                'owner'
             ]
             member = db.get_data_pelanggan()
             if member.status in status:
