@@ -9,7 +9,7 @@ bot_token = os.getenv("BOT_TOKEN", "6943283709:AAGK3LU4n_8gk40KnvRBKHfBgKMpJ1foP
 # =========================================================== #
 
 db_url = os.getenv("DB_URL", "mongodb+srv://kikoy:kikoy6969@cluster0.vooxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-db_name = os.getenv("DB_NAME", "fwbx") #bisa diganti sesuai kebutuhan
+db_name = os.getenv("DB_NAME", "fwbx1") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
 channel_1 = int(os.getenv("CHANNEL_1", "-1001197188587"))
