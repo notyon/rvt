@@ -3,21 +3,21 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_id = int(os.getenv("API_ID", "#"))
-api_hash = os.getenv("API_HASH", "#")
-bot_token = os.getenv("BOT_TOKEN", "#")
+api_id = int(os.getenv("API_ID", "29486311"))
+api_hash = os.getenv("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
+bot_token = os.getenv("BOT_TOKEN", "6943283709:AAGK3LU4n_8gk40KnvRBKHfBgKMpJ1foP8w")
 # =========================================================== #
 
-db_url = os.getenv("DB_URL", "#")
-db_name = os.getenv("DB_NAME", "telegram") #bisa diganti sesuai kebutuhan
+db_url = os.getenv("DB_URL", "mongodb+srv://kikoy:kikoy6969@cluster0.vooxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+db_name = os.getenv("DB_NAME", "test") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
-channel_1 = int(os.getenv("CHANNEL_1", "#"))
-channel_2 = int(os.getenv("CHANNEL_2", "#")) #untuk group comentar user
-channel_log = int(os.getenv("CHANNEL_LOG", "#"))
+channel_1 = int(os.getenv("CHANNEL_1", "-1001197188587"))
+channel_2 = int(os.getenv("CHANNEL_2", "-1001689707975")) #untuk group comentar user
+channel_log = int(os.getenv("CHANNEL_LOG", "-1002109996381"))
 # =========================================================== #
 
-id_admin = int(os.getenv("ID_ADMIN", "907544310"))
+id_admin = int(os.getenv("ID_ADMIN", "1707380693"))
 # =========================================================== #
 
 batas_kirim = int(os.getenv("BATAS_KIRIM", "5"))
