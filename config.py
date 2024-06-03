@@ -26,22 +26,30 @@ batas_kirim = int(os.getenv("BATAS_KIRIM", "5"))
 biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
 # =========================================================== #
 
-hastag = os.getenv("HASTAG", "#s #a #FwbBoy #FwbGirl #FwbAsk #FwbStory").replace(" ", "|").lower()
+hastag = os.getenv("HASTAG", "#s #a #FwbBoy #FwbGirl #FwbSpill #FwbStory").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jpg")
 pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.jpg")
 # =========================================================== #
 
-pesan_join = os.getenv("PESAN_JOIN", "Tidak Dapat Diakses Harap Join Terlebih Dahulu")
-start_msg = os.getenv("START_MSG", "Hai {mention} 🌱\n\n<b>SM Menfess Bot</b> adalah Bot Auto Post, Semua Pesan Yang Kamu Kirim Akan Masuk Ke Channel @smmenfess Secara Anonymous. Untuk Bantuan Ketik /help")
+pesan_join = os.getenv("PESAN_JOIN", "Silahkan join ke channel & grup CPF melalui tombol dibawah, lalu pilih coba lagi atau /help")
+start_msg = os.getenv("START_MSG", """
+Halo {mention}
+
+fwbbase bot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim menfess, gunakan hastag dibawah untuk mengirim pesan:
+
+#FwbBoy / #FwbGirl : untuk mencari teman, pasangan, partner dll.
+#FwbSpill : untuk spill sesuatu.
+#FwbStory : untuk berbagi cerita/pengalaman.
+""")
 
 gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
-{mention}, Pesan Mu Gagal Terkirim Silahkan Gunakan Hashtag Berikut:
+{mention} pesanmu gagal terkirim 🙅, harap gunakan hastag : 
 
-#Boy / #Girl (Untuk Mencari Pasangan, Teman , Partner FWB)
-#Ask (Untuk Bertanya)
-#Story (Untuk Berbagi Cerita)
-#Spill (Untuk Spill Masalah)
-#Find (Untuk Mencari Pasangan, Teman, Partner FWB)
+#FwbBoy / #FwbGirl : untuk mencari teman, pasangan, partner dll.
+#FwbSpill : untuk spill sesuatu
+#FwbStory : untuk berbagi cerita/pengalaman.
+
+jangan lupa join @caripartnerfwb
 """)
