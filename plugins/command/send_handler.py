@@ -87,7 +87,7 @@ async def transfer_coin_handler(client: Client, msg: types.Message):
         if y:
             if msg.reply_to_message:
                 if msg.reply_to_message.from_user.is_bot == True:
-                    return await msg.reply('🤖Bot tidak dapat ditranfer coin', True)
+                    return await msg.reply('🤖 bot tidak dapat ditranfer coin', True)
                 elif msg.reply_to_message.sender_chat:
                     return await msg.reply('channel tidak dapat ditranfer coin', True)
                 else:
