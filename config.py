@@ -34,7 +34,7 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 # =========================================================== #
 
 pesan_join = os.getenv("PESAN_JOIN", """
-Kamu tidak dapat menggunakan bot 🙅, Harap join terlebih dahulu ke channel dan grup cpf yang ada dibawah, jika sudah tekan coba lagi atau /help.
+Kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @friendwithbenefitx harap join terlebih dahulu ke channel dan grup cpf yang ada dibawah, jika sudah tekan coba lagi atau /help.
 
 Seputar informasi, pertanyaan dan top up coin bisa langsung hubungi @othentix
 """)
