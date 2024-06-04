@@ -93,10 +93,10 @@ async def help_handler(client, msg):
     pesan = "❏ Supported commands\n"
     pesan += '├ • /status — melihat status\n'
     pesan += '└ • /tf_coin — transfer coin ke user lain\n'
-    pesan += '\n— untuk mengirim pesan silahkan gunakan hastag dibawah:\n'
-    pesan += '#FwbBoy/#FwbGirl - untuk mencari teman, pacar, fwb dll\n'
-    pesan += '#FwbSpill - untuk spill sesuatu\n'
-    pesan += '#FwbStory - untuk bercerita\n'
+    pesan += '\n❏ Harap gunakan hastag dibawah untuk mengirim pesan\n'
+    pesan += '├ • #FwbBoy/#FwbGirl - untuk mencari teman, pacar, fwb dll\n'
+    pesan += '├ • #FwbSpill - untuk spill sesuatu\n'
+    pesan += '└ • #FwbStory - untuk bercerita\n'
     pesan += '\ninfo pengaduan atau top up coin hubungi @othentix\n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
