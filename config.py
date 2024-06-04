@@ -20,7 +20,7 @@ channel_log = int(os.getenv("CHANNEL_LOG", "-1002109996381"))
 id_admin = int(os.getenv("ID_ADMIN", "957521020"))
 # =========================================================== #
 
-batas_kirim = int(os.getenv("BATAS_KIRIM", "5"))
+batas_kirim = int(os.getenv("BATAS_KIRIM", "2"))
 # =========================================================== #
 
 biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
@@ -33,7 +33,11 @@ pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jp
 pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.jpg")
 # =========================================================== #
 
-pesan_join = os.getenv("PESAN_JOIN", "Silahkan join ke channel & grup CPF melalui tombol dibawah, lalu pilih coba lagi atau /help")
+pesan_join = os.getenv("PESAN_JOIN", """
+Kamu tidak dapat menggunakan bot 🙅, Harap join terlebih dahulu ke channel dan grup cpf yang ada dibawah, jika sudah tekan coba lagi atau /help.
+
+Seputar informasi, pertanyaan dan top up coin bisa langsung hubungi @othentix
+""")
 start_msg = os.getenv("START_MSG", """
 Halo {mention}
 
