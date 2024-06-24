@@ -43,7 +43,8 @@ Halo {mention}
 
 fwbbase bot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim menfess, gunakan hastag dibawah untuk mengirim pesan:
 
-#FwbBoy / #FwbGirl : untuk mencari teman, pasangan, partner dll.
+#FwbBoy : untuk mencari teman jika kamu seorang cowo.
+#FwbGirl : untuk mencari teman jika kamu seorang cewe.
 #FwbSpill : untuk spill sesuatu.
 #FwbStory : untuk berbagi cerita/pengalaman.
 """)
@@ -51,7 +52,8 @@ fwbbase bot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, 
 gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
 {mention} pesanmu gagal terkirim 🙅, harap gunakan hastag : 
 
-#FwbBoy / #FwbGirl : untuk mencari teman, pasangan, partner dll.
+#FwbBoy : untuk mencari teman jika kamu seorang cowo.
+#FwbGirl : untuk mencari teman jika kamu seorang cewe.
 #FwbSpill : untuk spill sesuatu
 #FwbStory : untuk berbagi cerita/pengalaman.
 
