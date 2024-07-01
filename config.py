@@ -5,7 +5,7 @@ load_dotenv()
 
 api_id = int(os.getenv("API_ID", "29486311"))
 api_hash = os.getenv("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
-bot_token = os.getenv("BOT_TOKEN", "6943283709:AAGK3LU4n_8gk40KnvRBKHfBgKMpJ1foP8w")
+bot_token = os.getenv("BOT_TOKEN", "6943283709:AAH1UYtRMaDhvUFnrjnNc0J6g0paS2haR4o")
 # =========================================================== #
 
 db_url = os.getenv("DB_URL", "mongodb+srv://kikoy:kikoy6969@cluster0.vooxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -26,7 +26,7 @@ batas_kirim = int(os.getenv("BATAS_KIRIM", "3"))
 biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
 # =========================================================== #
 
-hastag = os.getenv("HASTAG", "#s #a #FwbBoy #FwbGirl #FwbSpill #FwbStory").replace(" ", "|").lower()
+hastag = os.getenv("HASTAG", "#111 #112 #FwbBoy #FwbGirl #FwbSpill #FwbStory").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jpg")
