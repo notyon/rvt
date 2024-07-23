@@ -99,6 +99,7 @@ async def help_handler(client, msg):
     pesan += '#FwbSpill - untuk spill sesuatu\n'
     pesan += '#FwbStory - untuk bercerita\n'
     pesan += '\ncontoh : hi, call yu @username #fwbgirl\n'
+    pesan += '\nseputar pertanyaan dan beli coin hubungi @CPFServiceBOT\n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
