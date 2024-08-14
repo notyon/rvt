@@ -5,7 +5,7 @@ load_dotenv()
 
 api_id = int(os.getenv("API_ID", "29486311"))
 api_hash = os.getenv("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
-bot_token = os.getenv("BOT_TOKEN", "6943283709:AAH1UYtRMaDhvUFnrjnNc0J6g0paS2haR4o")
+bot_token = os.getenv("BOT_TOKEN", "")
 # =========================================================== #
 
 db_url = os.getenv("DB_URL", "mongodb+srv://kikoy:kikoy6969@cluster0.vooxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
