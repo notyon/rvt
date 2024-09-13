@@ -20,10 +20,10 @@ channel_log = int(os.getenv("CHANNEL_LOG", "-1002109996381"))
 id_admin = int(os.getenv("ID_ADMIN", "957521020"))
 # =========================================================== #
 
-batas_kirim = int(os.getenv("BATAS_KIRIM", "3"))
+batas_kirim = int(os.getenv("BATAS_KIRIM", "2"))
 # =========================================================== #
 
-biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
+biaya_kirim = int(os.getenv("BIAYA_KIRIM", "50"))
 # =========================================================== #
 
 hastag = os.getenv("HASTAG", "#111 #112 #FwbBoy #FwbGirl #FwbSpill #FwbStory").replace(" ", "|").lower()
@@ -36,7 +36,7 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 pesan_join = os.getenv("PESAN_JOIN", """
 Kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @friendwithbenefitx harap join terlebih dahulu ke channel dan grup cpf yang ada dibawah, jika sudah tekan coba lagi atau /help.
 
-Seputar informasi, pertanyaan dan top up coin bisa langsung hubungi @CPFServiceBOT
+Seputar informasi, pertanyaan dan top up coin Rp. 1000 / 500 coin hubungi @CPFServiceBOT
 """)
 start_msg = os.getenv("START_MSG", """
 Halo {mention}
