@@ -8,7 +8,7 @@ api_hash = os.getenv("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
 bot_token = os.getenv("BOT_TOKEN", "")
 # =========================================================== #
 
-db_url = os.getenv("DB_URL", "mongodb+srv://kikoy:kikoy6969@cluster0.vooxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+db_url = os.getenv("DB_URL", "mongodb+srv://ucik:ucik@cluster0.0l3r8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db_name = os.getenv("DB_NAME", "fwbx1") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
