@@ -14,19 +14,19 @@ db_name = os.getenv("DB_NAME", "rvt") #bisa diganti sesuai kebutuhan
 
 channel_1 = int(os.getenv("CHANNEL_1", "-1001979450020"))
 channel_2 = int(os.getenv("CHANNEL_2", "-1001721745890")) #untuk group comentar user
-channel_log = int(os.getenv("CHANNEL_LOG", "-1002682268710"))
+channel_log = int(os.getenv("CHANNEL_LOG", "-1002009827821"))
 # =========================================================== #
 
 id_admin = int(os.getenv("ID_ADMIN", "1613540894"))
 # =========================================================== #
 
-batas_kirim = int(os.getenv("BATAS_KIRIM", "2"))
+batas_kirim = int(os.getenv("BATAS_KIRIM", "5"))
 # =========================================================== #
 
-biaya_kirim = int(os.getenv("BIAYA_KIRIM", "50"))
+biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
 # =========================================================== #
 
-hastag = os.getenv("HASTAG", "#111 #112 #FwbBoy #FwbGirl #FwbSpill #FwbStory").replace(" ", "|").lower()
+hastag = os.getenv("HASTAG", "#111 #112 #rvtboy #rvtgirl #rvtspill #rvtstory").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jpg")
@@ -34,28 +34,28 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 # =========================================================== #
 
 pesan_join = os.getenv("PESAN_JOIN", """
-Kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @friendwithbenefitx harap join terlebih dahulu ke channel dan grup cpf yang ada dibawah, jika sudah tekan coba lagi atau /help.
+Kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @randomvirtualfess harap join terlebih dahulu ke channel dan grup cpf yang ada dibawah, jika sudah tekan coba lagi atau /help.
 
-Seputar informasi, pertanyaan dan top up coin Rp. 1000 / 500 coin hubungi @CPFServiceBOT
+Seputar informasi, pertanyaan dan top up coin Rp. 1000 / 200 coin hubungi @xvilance
 """)
 start_msg = os.getenv("START_MSG", """
 Halo {mention}
 
-fwbbase bot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim menfess, gunakan hastag dibawah untuk mengirim pesan:
+RVT Menfess bot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim menfess, gunakan hastag dibawah untuk mengirim pesan:
 
-#FwbBoy : untuk mencari teman jika kamu seorang cowo.
-#FwbGirl : untuk mencari teman jika kamu seorang cewe.
-#FwbSpill : untuk spill sesuatu.
-#FwbStory : untuk berbagi cerita/pengalaman.
+#rvtboy : untuk mencari teman jika kamu seorang cowo.
+#rvtgirl : untuk mencari teman jika kamu seorang cewe.
+#rvtspill : untuk spill sesuatu.
+#rvtstory : untuk berbagi cerita/pengalaman.
 """)
 
 gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
 {mention} pesanmu gagal terkirim 🙅, harap gunakan hastag : 
 
-#FwbBoy : untuk mencari teman jika kamu seorang cowo.
-#FwbGirl : untuk mencari teman jika kamu seorang cewe.
-#FwbSpill : untuk spill sesuatu
-#FwbStory : untuk berbagi cerita/pengalaman.
+#rvtboy : untuk mencari teman jika kamu seorang cowo.
+#rvtirl : untuk mencari teman jika kamu seorang cewe.
+#rvtspill : untuk spill sesuatu
+#rvtstory : untuk berbagi cerita/pengalaman.
 
-jangan lupa join @caripartnerfwb
+jangan lupa join @RVTOfficial
 """)
