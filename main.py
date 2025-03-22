@@ -8,6 +8,6 @@ async def reset_menfess():
     print('PESAN PROMOTE BERHASIL DIRESET')
 
 scheduler = AsyncIOScheduler(timezone="Asia/Jakarta")
-scheduler.add_job(reset_menfess, trigger="cron", hour=1, minute=0)
+scheduler.add_job(reset_menfess, trigger="cron", hour=1, minute=0).start()
 
 Bot().run()
