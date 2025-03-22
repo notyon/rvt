@@ -11,7 +11,7 @@ async def reset_menfess():
 async def main():
     scheduler = AsyncIOScheduler()
     scheduler.add_job(reset_menfess, trigger="cron", hour=1, minute=0)
-    await scheduler.start()  
+    scheduler.start()  
 
     while True:
         await asyncio.sleep(1)
