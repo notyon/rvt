@@ -10,5 +10,4 @@ async def reset_menfess():
 scheduler = AsyncIOScheduler(timezone="Asia/Jakarta")
 scheduler.add_job(reset_menfess, trigger="cron", hour=1, minute=0)
 
-
 Bot().run()
